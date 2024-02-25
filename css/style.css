@@ -64,13 +64,9 @@ body{
   margin-top: 15px;
   position: relative;
   border-radius: 5%;
-  transition: 1.5s;
   box-shadow: 10px 3px 10px rgba(21, 16, 16, 0.3);
 }
-.imagen-1:hover {
-  transform: scale(1.1);
-  transition: 1.5s;
-}
+
 
 .imagen-2 {
   grid-area: imagen-2;
@@ -80,13 +76,9 @@ body{
   height: 650px;
   position: relative;
   border-radius: 5%;
-  transition: 1.5s;
   box-shadow: 10px 3px 10px rgba(21, 16, 16, 0.3);
 }
-.imagen-2:hover {
-  transform: scale(1.1);
-  transition: 1.5s;
-}
+
 
 .imagen3 {
   grid-area: imagen3;
@@ -96,13 +88,9 @@ body{
   height: 650px;
   position: relative;
   border-radius: 5%;
-  transition: 1.5s;
   box-shadow: 10px 3px 10px rgba(21, 16, 16, 0.3);
 }
-.imagen3:hover {
-  transform: scale(1.1);
-  transition: 1.5s;
-}
+
 .btn-button {
   color: whitesmoke;
   position: absolute;
