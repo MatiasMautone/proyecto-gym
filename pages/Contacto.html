@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <nav class="nav-index">
@@ -19,39 +20,48 @@
             <li><a href="./Contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <main>
-        <section class="contacto">
-        <img src="../images/istockphoto-465383082-612x612.jpg" alt="mujer nadando">
-        <h1>ESTAMOS EN CONTACTO</h1>
-        <h3>Hola!</h4>
-        <p>Gracias por contactarnos, escribi tu inquietud y te contestaremos dentro de las proximas 24hs.</p>
-    </section>
-        <form action="#" method="get">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre">
-            <br><br>
-            <label for="apellido">Apellido</label>
-            <input type="text" id="apellido" name="apellido">
-            <br><br>
-            <label for="dni">DNI</label>
-            <input type="text" id="dni" name="dni">
-            <br><br>
-            <label for="telefono">Telefono</label>
-            <input type="text" id="telefono" name="telefono">
-            <br><br>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-            <br><br>
-            <label for="comentario">Dejanos un comentario</label>
-            <input type="text" id="comentario" name="comentario">
-            <br><br>
-            <input type="submit">
-        </form>
-
-        
-        
-        </form>
-    </main>
-    
+    <header class="header-cont">
+        <h1>Contactanos</h1>
+    </header>
+    <div class="contenedor-contacto">
+        <div class="titulo">
+            <h1>¡Escribi tu duda!</h1>
+            <p>Escribí tus datos y contanos tu inquietud. Te daremos una respuesta en menos de 24 horas hábiles.</p>
+        </div>
+        <div class="contenido">
+            <form action="#" method="get">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" class="campo">
+                <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" class="campo">
+                <input type="text" id="dni" name="dni" placeholder="Documento de identificacion" class="campo">
+                <input type="text" id="telefono" name="telefono" placeholder="Dejanos tu telefono" class="campo">
+                <input type="text" id="email" name="email" placeholder="Email" class="campo">
+                <textarea name="mensaje" placeholder="Dejanos tu comentario"></textarea>
+                <input type="submit" class="btn-enviar">
+            </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="logo-fot">
+          <img
+            src="../images/logo-822534351-1663261791-0458473c5456c23eb8493fd3b4b7d22c1663261791-320-0.webp"
+            alt="logo"
+          />
+        </div>
+        <div class="iconos">
+          <a href="#" class="facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="ig">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="wp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" class="x">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+      </footer>
 </body>
 </html>
+
