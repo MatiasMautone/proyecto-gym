@@ -1,0 +1,24 @@
+// ----------------------------------------- FOOTER--------------------------------------------
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  img{
+    height: 75px;
+  }
+  .iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+}

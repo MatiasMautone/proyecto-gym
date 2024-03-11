@@ -1,0 +1,111 @@
+/*----------------------- MOBILE LAST  NAV----------------------*/
+@media (max-width: 750px) {
+    .nav-index {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /*--------------------------MAIN-INDEX----------------------- */
+  
+  @media (max-width:750px) {
+    .container {
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr; 
+      grid-template-rows: 1fr 1fr 1fr;  
+      grid-template-areas: 
+        ". imagen-1 ."
+        ". imagen-2 ."
+        ". imagen3 .";
+      gap: 15px; 
+      .imagen-1, .imagen-2, .imagen3{
+        height: 350px;
+        width: 350px;
+        box-shadow: none;
+      }
+      .btn-button{
+        font-size: 25px;
+      }
+    }
+/*--------------------------MAIN CONTACTO----------------------- */
+    @media (max-width:750px) {
+      .header-cont{
+        width: 500px;
+        margin-left: 0;
+      }
+    }
+    @media (max-width:750px) {
+      .contenedor-contacto{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      h3{
+        margin-left: 70px;
+      }
+      p{
+        padding-left: 5px;
+      }
+    }
+    @media (max-width:750px) {
+      .contenido .campo, textarea{
+        width: 400px;
+      }
+      .btn-enviar{
+        margin-left: 150px;
+      }
+      textarea{
+        height: 100px;
+      }
+    }
+    @media (max-width:750px) {
+      .header-cont h1{
+        left: 15%;
+      }
+    }
+  }
+
+/*--------------------------MAIN RRHH----------------------- */
+@media (max-width:750px) {
+  .rrhh1{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .rrhh1 h1{
+    margin-left: 75px;
+  }
+   
+}
+  @media (max-width:750px) {
+    .cajas-button{
+      margin-left: 150px;
+    }
+  }
+  @media (max-width:750px) {
+    .cajas-contenido h3{
+      margin-left: 0;
+    }
+    p{
+      margin-left: 0;
+    }
+  }
+/*--------------------------FOOTER---------------------- */
+  @media (max-width:750px) {
+    .logo-fot img{
+      height: 50px;
+    }
+    @media (max-width:500px) {
+      .footer a{
+        font-size: 20px;
+      }
+    }
+  }
+  @media (max-width:500px) {
+    body{
+      padding-bottom: 6em;
+    }
+  }
+

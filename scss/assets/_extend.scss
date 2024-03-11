@@ -1,0 +1,7 @@
+.hover-boton{
+    &:hover{
+        background-color: black;
+       transition: .5s;
+       color: white;
+       }
+}
