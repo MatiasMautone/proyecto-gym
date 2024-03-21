@@ -1,21 +1,4 @@
 // ---------------------------------- MAIN CONTACTO ------------------------------
-.header-cont{
-    background-image: url(../images/piscina-olimpica2.jpg);
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-    position: relative;
-    h1{
-      position: absolute;
-      color: white;
-      bottom: 0;
-      left: 40%;
-      font-size: 50px;
-    }
-  }
   .contenedor-contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;

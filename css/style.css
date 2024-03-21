@@ -5,7 +5,7 @@
   font-family: sans-serif; }
 
 main {
-  min-height: 90%; }
+  min-height: 90vh; }
 
 .hover-boton:hover, .cajas-button:hover, .btn-enviar:hover {
   background-color: black;
@@ -203,22 +203,6 @@ main {
   margin-top: 20px;
   margin-left: 300px;
   border: solid 2px black; }
-
-.header-cont {
-  background-image: url(../images/piscina-olimpica2.jpg);
-  height: 500px;
-  background-position: center;
-  background-size: cover;
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
-  position: relative; }
-  .header-cont h1 {
-    position: absolute;
-    color: white;
-    bottom: 0;
-    left: 40%;
-    font-size: 50px; }
 
 .contenedor-contacto {
   display: grid;
