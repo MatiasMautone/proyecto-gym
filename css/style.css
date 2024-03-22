@@ -4,8 +4,10 @@
   padding: 0;
   font-family: sans-serif; }
 
-main {
-  min-height: 90vh; }
+body {
+  position: relative;
+  padding-bottom: 8em;
+  min-height: 100vh; }
 
 .hover-boton:hover, .cajas-button:hover, .btn-enviar:hover {
   background-color: black;
@@ -47,6 +49,7 @@ main {
   display: flex;
   justify-content: space-around;
   background-color: black;
+  position: absolute;
   bottom: 0;
   width: 100%;
   margin-top: 20px; }
@@ -116,7 +119,7 @@ main {
   margin-top: 30px; }
   .contenido-tarjeta .tarjeta {
     width: 325px;
-    background-color: #f4f4f4;
+    background-color: #fffaf2;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -324,3 +327,23 @@ textarea {
 @media (max-width: 500px) {
   body {
     padding-bottom: 6em; } }
+
+.sec-act {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 50px; }
+
+.parrafos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  width: 500px;
+  background-color: #fffaf2;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: auto; }
+  .parrafos p {
+    font-family: "Poppins", sans-serif; }
