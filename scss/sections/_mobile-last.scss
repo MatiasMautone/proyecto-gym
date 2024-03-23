@@ -31,27 +31,23 @@
     }
 /*--------------------------MAIN CONTACTO----------------------- */
     @media (max-width:750px) {
-      .header-cont{
-        width: 500px;
-        margin-left: 0;
-      }
-    }
-    @media (max-width:750px) {
       .contenedor-contacto{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
       }
-      h3{
-        margin-left: 70px;
+       h3{
+        margin-left: 50px;
       }
-      p{
-        padding-left: 5px;
+      .contenedor-contacto p{
+        padding-left: 90px;
       }
     }
     @media (max-width:750px) {
       .contenido .campo, textarea{
-        width: 400px;
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 10px;
       }
       .btn-enviar{
         margin-left: 150px;
@@ -93,6 +89,11 @@
     }
   }
 
+  @media (max-width:750px) {
+    .parrafos{
+      width: 100px;
+    }
+  }
 /*--------------------------FOOTER---------------------- */
   @media (max-width:750px) {
     .logo-fot img{
